@@ -22,8 +22,7 @@ without any warranty.
 
 ------------------------------------------------------------------------
 When using this data, please cite the original publication:
-Jianxi Gao, Baruch Barzel,  Albert-Laszlo Barabasi, Resilience of 
-Complex Networks, XXXX, XXX, 2015.
+Jianxi Gao, Baruch Barzel,  Albert-Laszlo Barabasi, Resilience of Complex Networks, XXXX, XXX, 2015.
 ------------------------------------------------------------------------
 
 
