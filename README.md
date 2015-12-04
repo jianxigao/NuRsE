@@ -34,7 +34,7 @@ The folder Figure2 ----> provides the data and code to produce the
 The folder Figure3 ----> provides the data and code to produce the 
                          figures in Fig.3.
 The folder Figure4 ----> provides the data and code to produce the 
-                         figures in Fig.4, and SI Fig. 6.
+                         SI Fig. 6.
 The folder Figure5 ----> provides the data and code to produce the 
                          figures in Fig.5.
 The folder Figure_syn_net ----> provides the data and code to produce 
