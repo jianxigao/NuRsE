@@ -31,8 +31,8 @@ for i = 1:m
     for j = 1:n-1
         for k = j+1:n
             if M(i,j) ~= 0 && M(i,k) ~= 0
-                A(j,k) = A(j,k)+M(i,k)/kn(i)+M(i,j)/kn(i);
-                A(k,j) = A(k,j)+M(i,j)/kn(i)+M(i,k)/kn(i);
+                A(j,k) = A(j,k)+M(i,k)*M(i,j)/kn(i);
+                A(k,j) = A(k,j)+M(i,j)*M(i,k)/kn(i);
             end
         end
     end
@@ -46,8 +46,8 @@ for i = 1:n
     for j = 1:m-1
         for k = j+1:m
             if M(j,i) ~= 0 && M(k,i) ~= 0
-                B(j,k) = B(j,k)+M(k,i)/km(i)+M(j,i)/km(i);
-                B(k,j) = B(k,j)+M(j,i)/km(i)+M(k,i)/km(i);
+                B(j,k) = B(j,k)+M(k,i)*M(j,i)/km(i);
+                B(k,j) = B(k,j)+M(j,i)*M(k,i)/km(i);
             end
         end
     end
