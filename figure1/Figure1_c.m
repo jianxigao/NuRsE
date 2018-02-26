@@ -15,8 +15,8 @@ R = 0.5; X = 0.6;beta = 0.6;
 PL = 0.01:0.001:0.283;
 a = (R*PL+X*PL*beta)/Va;b = (-R*PL*beta+X*PL)/Va;
 
-V1 = (-2*(a/Va^2-1)+sqrt((2*a/Va-1).^2-4*(1/Va^2)*(a.^2+b.^2)))/2/Va^2;
-V2 = (-2*(a/Va^2-1)-sqrt((2*a/Va-1).^2-4*(1/Va^2)*(a.^2+b.^2)))/2/Va^2;
+V1 = real((-2*(a/Va^2-1)+sqrt((2*a/Va-1).^2-4*(1/Va^2)*(a.^2+b.^2)))/2/Va^2);
+V2 = real((-2*(a/Va^2-1)-sqrt((2*a/Va-1).^2-4*(1/Va^2)*(a.^2+b.^2)))/2/Va^2);
 
 plot(PL,V1,'-b','LineWidth',4);hold on;
 plot(PL,V2,'--g','LineWidth',3);hold on;
