@@ -1,5 +1,12 @@
 function Figure_5_f
-%% plot figure 5 f
+%   Figure1_main Plots all the Figures 5 f in our paper "Universal
+%   resilience patterns in complex networks".
+%
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 11:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
 
 figure1 = figure('color',[1 1 1]);
 axes1 = axes('Parent',figure1,'FontSize',24);box(axes1,'on');hold(axes1,'on');
