@@ -1,7 +1,13 @@
 function Figure1_f
-%% plot figure 1 f
+%   Figure1_main Plots all the Figures 1 e in our paper "Universal
+%   resilience patterns in complex networks".
+%   These data points are from 4 buses power system
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 11:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
 
-%% these data points are from 4 buses power system
 load 4_buses_power
 figure1 = figure('color',[1 1 1]);
 axes1 = axes('Parent',figure1,'FontSize',24);box(axes1,'on');hold(axes1,'on');
