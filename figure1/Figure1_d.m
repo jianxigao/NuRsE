@@ -1,6 +1,12 @@
 function Figure1_d
-%% plot figure 1 d
-%% these data points are obtained by M dynamics with 4 nodes
+%   Figure1_main Plots all the Figures 1 d in our paper "Universal
+%   resilience patterns in complex networks".
+%   These data points are obtained by M dynamics with 4 nodes
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 11:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
 
 load Result_M_A23A24
 figure1 = figure('color',[1 1 1]);
