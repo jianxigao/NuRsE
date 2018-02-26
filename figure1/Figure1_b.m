@@ -1,5 +1,12 @@
 function Figure1_b
-%% plot figure 1 b
+%   Figure1_main Plots all the Figures 1 b in our paper "Universal
+%   resilience patterns in complex networks".
+%
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 11:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
 
 B = 1;maxbeta = 4;
 beta = 0.01:0.01:maxbeta;
