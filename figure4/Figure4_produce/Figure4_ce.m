@@ -1,5 +1,13 @@
 function Figure4_ce
-%% plot figure 4 c and e
+%   Figure4_ce produces the results for IEEE118 and plots both the Figure 6 d and h (in supplementary information) in our paper "Universal
+%   resilience patterns in complex networks".
+%
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 21:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
+
 
 clear
 clc
