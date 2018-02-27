@@ -1,17 +1,13 @@
-
 =======================================================================
-Folder Figure4_plot ---> Run Figure4_bd.m and Figure4_ce.m
+Folder Figure6SI_plot ---> Run plot_power_IEEE14.m, plot_power_IEEE30.m, plot_power_IEEE57.m, plot_power_IEEE118.m
 =======================================================================
 
-Using folder Figure4_plot, one can produce all the figures in Figure 4
-and SI about power grid on real networks by the data we simulated 
-and saved.
+Using folder Figure6SI_plot, one can produce all the figures in SI about power grid by the data we simulated and saved.
 
 
 =======================================================================
-Folder Figure4_produce ---> Run Produce_Figure4.m
+Folder Figure6SI_produce ---> Run Produce_Figure6SI.m
 =======================================================================
 
-Using folder Figure4_produce, one can produce all the figures in Figure 4 
-and SI about power grid on real by running the code.
+Using folder Figure4_produce, one can produce all the figures in SI about power grid by running the code.
 
