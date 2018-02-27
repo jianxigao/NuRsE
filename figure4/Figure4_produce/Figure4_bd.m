@@ -1,5 +1,13 @@
 function Figure4_bd
-%% plot figure 4 b and d
+%   Figure4_bd produces the results for IEEE14 and plots both Figures 6 a and e (in supplementary information) in our paper "Universal
+%   resilience patterns in complex networks".
+%
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 21:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
+
 
 clear
 clc
