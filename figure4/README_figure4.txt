@@ -11,5 +11,5 @@ Folder Figure6SI_produce ---> Run Produce_Figure6SI.m
 
 Using folder Figure4_produce, one can produce all the figures in SI about power grid by running the code.
 
-Note that this figure has been moved from Figure 4 to Figure 6 in SI.
+Note that this figure has been moved from Figure 4 to Figure 6 in SI. You will need to compare with the results in SI.
 
