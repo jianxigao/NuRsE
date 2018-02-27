@@ -1,4 +1,13 @@
 function plot_power_IEEE57
+%   plot_power_IEEE57 produces the results and plots both the Figure 6 c and g (in supplementary information) in our paper "Universal
+%   resilience patterns in complex networks".
+%
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 21:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
+
 clear
 clc
 
