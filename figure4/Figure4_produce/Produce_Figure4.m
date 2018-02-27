@@ -1,4 +1,12 @@
 function Produce_Figure4
+%   Produce_Figure4 plots all the Figure 6 (in supplementary information) in our paper "Universal
+%   resilience patterns in complex networks".
+%
+%  
+%   NuRsEv2.0
+%   $Id: Figure1_main.m Created at 2018-2-26 21:35:29 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
 
 
 %% Set the path to be the folder 
