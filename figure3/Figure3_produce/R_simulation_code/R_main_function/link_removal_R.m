@@ -44,14 +44,16 @@ for remove = [L-1:-nnros:nnros,0]
     iteration = iteration+1;
     s1 = s;
     num_removed_links = remove;
-    removed_links = the_links(1:num_removed_links);
-    s1(removed_links) = 0;
-    A = sparse(i,j,s1);max_i_j = max([max(i),max(j)]);
-    A(max_i_j,max_i_j) = 0;
-    d = sum(A); isoluted = find(d==0);
-    A(isoluted,:) = [];A(:,isoluted) = [];
-    cluster = find_components(A);
-    A = A(cluster,:);A = A(:,cluster);
+    if num_removed_links ~= 0
+        removed_links = the_links(1:num_removed_links);
+        s1(removed_links) = 0;
+        A = sparse(i,j,s1);max_i_j = max([max(i),max(j)]);
+        A(max_i_j,max_i_j) = 0;
+        d = sum(A); isoluted = find(d==0);
+        A(isoluted,:) = [];A(:,isoluted) = [];
+        cluster = find_components(A);
+        A = A(cluster,:);A = A(:,cluster);
+    end
     if length(A) >= 1
         output_one = iteration_real_R(iteration,output_one,A);  
     else
