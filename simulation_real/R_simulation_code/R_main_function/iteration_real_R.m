@@ -35,13 +35,21 @@ options = [];
 [t,x] = ode45(@R_system,[t0,tf],x0,options,A);
 y1 = x(end,:);y1 = y1';
 
-% Remove the strong components has dead
-% zeroy1 = find(y1 < 1.1);
-% if length(zeroy1) < n
-%     y1(zeroy1) = [];
-%     A(zeroy1,:) = [];
-%     A(:,zeroy1) = [];
-% end
+% To simulate the results in the paper set paper_R = 1;
+paper_R = 0;
+if paper_R == 1
+   zeroy1 = find(y1 < 1.1);
+   if length(zeroy1) < n
+      y1(zeroy1) = [];
+      A(zeroy1,:) = [];
+      A(:,zeroy1) = [];
+  end
+  n = length(A); % number of nodes in the network
+  x0 = ones(n,1)*2;  % Initial conditions
+  options = [];
+  [t,x] = ode45(@R_system,[t0,tf],x0,options,A);
+  y1 = x(end,:);y1 = y1';
+end
 
 output_one(steps,1) = mean(y1);
 
