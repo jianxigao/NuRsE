@@ -38,10 +38,12 @@ A0 = A;
 for i = [n-1:-nnros:nnros,0] % i is the number of nodes removal
     A = A0; 
     steps = steps+1; 
-    A(1:i,:) = [];
-    A(:,1:i) = [];
-    cluster = find_components(A);
-    A = A(cluster,cluster); 
+    if i ~= 0
+        A(1:i,:) = [];
+        A(:,1:i) = [];
+        cluster = find_components(A);
+        A = A(cluster,cluster); 
+    end
     if length(A) >= 1
         output_one= iteration_real_R(steps,output_one,A);  
     else
