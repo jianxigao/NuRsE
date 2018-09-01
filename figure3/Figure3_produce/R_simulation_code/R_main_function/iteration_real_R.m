@@ -35,7 +35,7 @@ options = [];
 [t,x] = ode45(@R_system,[t0,tf],x0,options,A);
 y1 = x(end,:);y1 = y1';
 
-% To simulate the results (combination of node and link perturbations) in the paper, set paper_R = 1;
+% To simulate the results (combination of node and weight perturbations) in the paper, set paper_R = 1 only for weight perturbatuons;
 paper_R = 0;
 if paper_R == 1
    zeroy1 = find(y1 < 1.1);
