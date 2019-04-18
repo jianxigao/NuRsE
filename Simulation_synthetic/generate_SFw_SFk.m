@@ -31,7 +31,7 @@ Sum_w = sum(w);
 w = w/Sum_w;
 all = randperm(n);
 w=w(all);
-for i=1:n % the probability to form a link
+for i=1:n % for binary search; the cutoff probability for choosing node i for linking
     Cum_w(i) = sum(w(1:i));
 end
 E = meank*n/2;
